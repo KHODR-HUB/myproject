@@ -6,7 +6,6 @@ plugins {
 }
 
 android {
-    flavorDimensions.clear()
     namespace = "com.example.helloworld"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
