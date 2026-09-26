@@ -19,3 +19,4 @@ subprojects {
 tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
+extra.set("android.newDsl",true)
