@@ -20,3 +20,4 @@ tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
 extra.set("android.newDsl",true)
+extra.set("android.injected.build.meta.data.per.module.repositories", "true")
