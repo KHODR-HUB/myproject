@@ -9,7 +9,7 @@ android {
     namespace = "com.example.helloworld"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
-
+    extra.set("android.newDsl", true)
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
